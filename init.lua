@@ -35,3 +35,10 @@ require "nvchad.autocmds"
 vim.schedule(function()
   require "mappings"
 end)
+
+vim.opt.autoindent=true
+vim.opt.smartindent=true
+vim.opt.expandtab=false
+
+
+
